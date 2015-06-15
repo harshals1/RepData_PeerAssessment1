@@ -22,13 +22,13 @@ tsteps <- tapply(data$steps, data$date, FUN=sum, na.rm=TRUE)
 qplot(tsteps, binwidth=500,xlab="Total No. of steps taken per day")
 ```
 
-Mean Steps taken per day is
+Mean Steps taken per day are:-
 ```{r mean}
 mean(tsteps,na.rm=TRUE)
 ```
 
-Median Steps taken per day is
-```{r median}
+Median Steps taken per day are:-
+```{r median steps taken per day}
 median(tsteps,na.rm=TRUE)
 ```
 

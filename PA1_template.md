@@ -44,7 +44,7 @@ qplot(tsteps, binwidth=500,xlab="Total No. of steps taken per day")
 
 ![plot of chunk total_steps](figure/total_steps-1.png) 
 
-Mean Steps taken per day is
+Mean Steps taken per day are:-
 
 ```r
 mean(tsteps,na.rm=TRUE)
@@ -54,7 +54,7 @@ mean(tsteps,na.rm=TRUE)
 ## [1] 9354.23
 ```
 
-Median Steps taken per day is
+Median Steps taken per day are:-
 
 ```r
 median(tsteps,na.rm=TRUE)
